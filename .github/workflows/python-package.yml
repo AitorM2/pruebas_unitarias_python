@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'  # Usa la versión de Python que prefieras
+        python-version: '3.8'
 
     - name: Install dependencies
       run: |
@@ -30,4 +30,4 @@ jobs:
 
     - name: Run tests with pytest
       run: |
-        pytest tests  # Asegúrate de que las pruebas están en una carpeta llamada 'tests'
+        pytest
